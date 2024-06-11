@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Your Flowers</title>
+    <style>
+        /* CSS Styles */
+        body {
+            background-image: url('8.jpg');
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #444;
+        }
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        form {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        input[type="text"], input[type="email"], select, textarea, input[type="submit"] {
+            width: 50%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        /* Add more CSS styles as needed */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Customize Your Flowers</h1>
+    </header>
+    <div class="container">
+        <form action="book.html" method="post"><br>
+            <label for="event">Select Event:</label><br>
+            <select name="event" id="event"><br>
+                <option value="wedding">Wedding</option><br>
+                <option value="birthday">Birthday</option><br>
+                <option value="anniversary">Anniversary</option><br>
+                <br>
+                 
+            </select><br>
+            <label for="flowerType">Choose Flower Type:</label><br>
+            <select name="flower type" id="event"><br>
+                <option value="Chrysanthemum"> Chrysanthemum</option><br>
+                <option value="Dahlia">Dahlia</option><br>
+                <option value="Periwinkle ">Periwinkle </option><br>
+                <option value="Azalea">Azalea</option><br>
+                <option value=" Hyacinth"> Hyacinth</option><br>
+                <br>
+                 
+            </select><br>
+            <label for="quantity">Quantity:</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" value="1"><br>
+            <label for="message">Additional Message:</label><br>
+            <textarea id="message" name="message" placeholder="Enter any special instructions"></textarea><br>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Enter your email"><br>
+            <input type="submit" value="Book Now"><br>
+        </form>
+    </div>
+</body>
+</html>
